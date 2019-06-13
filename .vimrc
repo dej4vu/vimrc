@@ -8,7 +8,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'fatih/vim-go'
 "Plugin 'Valloric/YouCompleteMe'
-Plugin 'SirVer/ultisnips'
+"Plugin 'SirVer/ultisnips'
 Plugin 'tagbar'
 Bundle 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
@@ -113,4 +113,3 @@ au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
 "                let &t_Sb = "\<Esc>[4%dm"
 "        endif
 " endif
-
